@@ -4,7 +4,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
-        int chess[] = {1,1,2,2,2,8};
+        int k = scan.nextInt();
+        int q = scan.nextInt();
+        int l = scan.nextInt();
+        int b = scan.nextInt();
+        int n = scan.nextInt();
+        int p = scan.nextInt();
+
+        System.out.printf("%d %d %d %d %d %d\n",1-k, 1-q, 2-l, 2-b, 2-n, 8-p);
+
     }
 }
